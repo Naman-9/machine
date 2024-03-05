@@ -1,0 +1,30 @@
+.wrapper-acc{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 25px;
+}
+
+.question{
+    position: relative;
+    background-color: pink;
+    padding: 5px;
+}
+.answer{
+    background-color: white;
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.icon{
+    position: relative;
+    left: 230px;
+    bottom: 25px;
+}

@@ -1,0 +1,28 @@
+.wrapper-star {
+    padding: 25px;
+    color: black;
+    background: white;
+    border: 2px solid pink;
+    border-radius: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.star-btn {
+    outline: none;
+    border: none;
+
+}
+
+.star {
+    font-size: 30px;
+    margin-right: 5px;  
+}
+
+.on {
+    color: yellowgreen;
+}
+
+.off{
+    color: gainsboro;
+}

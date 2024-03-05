@@ -1,0 +1,1 @@
+export const dummyText = " Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laudantium libero soluta, esse quasi aliquid quas magnam porro a, sint labore, quo nisi sed dolor animi necessitatibus odit maxime numquam.";

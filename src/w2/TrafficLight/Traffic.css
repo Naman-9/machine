@@ -1,0 +1,22 @@
+.wrapper{
+    background: #000;
+    height: 100vh;
+    color: white;
+}
+
+.traffic-light-container{
+    border: 2px solid white;
+    height: 25%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.traffic-light {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    background-color: gainsboro;
+}

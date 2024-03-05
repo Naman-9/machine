@@ -1,0 +1,78 @@
+.carsouel {
+    max-width: 500px;
+    margin: 20px auto;
+    position: relative;
+}
+.slide {
+    position: relative; 
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.slide-image {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.slide-caption {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%)
+}
+
+.dot-wrapper{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dot{
+    margin: -20px 5px;
+}
+.dot-images{
+    z-index: 3;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.dot-images::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px; /* Adjust the size of the pseudo-element as needed */
+    height: 40px; /* Adjust the size of the pseudo-element as needed */
+    background-color: transparent; /* Set the background color of the pseudo-element */
+    border: 3px solid green; /* Set the border of the pseudo-element */
+    border-radius: 50%; /* Ensure the pseudo-element is round */
+    display: none;
+}
+
+.dot-active::before {
+    display: block;
+}
+
+
+
+.navigation {
+    position: absolute;
+    top: 50%;
+    font-size: larger;
+    color: black;
+    transform: translateY(-100%);
+}
+
+.next {
+    right: 25px;
+}
+
+.prev{
+    left: 25px;
+}
